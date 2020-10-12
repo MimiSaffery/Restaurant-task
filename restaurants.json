@@ -30,25 +30,20 @@
                     {
                         "name": "Severn & Wye Oak-Smoked Salmon",
                         "price":  "17.25"
-                    }
+                    },
                     {
                         "name": "Native Lobster half ",
                         "price":  "27.75"
-                    }
+                    },
                     {
-                        "name": "Lobster & Caviar Omelette ",
+                        "name": "Lobster & Caviar Omelette",
                         "price":  "57.00"
+                    },
+                    {
+                        "name": "Cheese & Potato Frittata",
+                        "price":  "9.75"
                     }
-
-
-
-
-
                 ]
-
-        
-
-                
             }
         ]
     }
