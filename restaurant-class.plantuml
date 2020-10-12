@@ -1,0 +1,48 @@
+@startuml
+class Restaurant{
+    Id Integer
+    Name String 
+    Ratings array<rating>
+    ---
+    addRating(<rating>)
+
+} 
+Restaurant  --{Menu
+class Menu{
+    Id Integer
+    Title String
+    Menus array<menu>
+    ---
+    addmenu(<menu>)
+
+    }
+Menu --{Drinks_Menu 
+Menu --{Food_Menu
+Menu --{Dessert_Menu
+
+class Drinks_Menu {
+    Id Integer
+    Title String
+    Items Array<Item>
+    ---
+    addItem(<Item>)
+}
+class Food_Menu {
+    Id Integer
+    Title String
+    Items Array<Item>
+    ---
+    addItem(<Item>)
+}
+class Dessert_Menu {
+    Id Integer
+    Title String
+    Items Array<Item>
+    ---
+    addItem(<Item>)
+}
+
+Drinks_Menu - Food_Menu 
+Food_Menu - Dessert_Menu
+
+@enduml
