@@ -5,6 +5,7 @@ class Menu {
     }
     addItem(item){
          this.items.push(item)
+         return this
     }
 }
 module.exports = Menu;
